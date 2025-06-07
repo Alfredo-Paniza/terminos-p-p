@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #3f5572;
+  color: #333;
+}
+
+.header {
+  background-color: #81929c;
+  background-image: url('cc.webp');
+  background-size: cover;         
+  background-position: center;    
+  background-repeat: no-repeat;   
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;             
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 150px;
+  margin-right: 15px;
+  border-radius: 8px;
+}
+
+.brand-name {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.4); /* Fondo semitransparente */
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Sombra para mejor contraste */
+}
+
+.container {
+  max-width: 800px;
+  background-color: white;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #2c3e50;
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #34495e;
+  margin-top: 30px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Pie de página */
+.footer {
+  background-color: #ecf0f1;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #7f8c8d;
+  margin-top: 40px;
+}
